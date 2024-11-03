@@ -11,5 +11,16 @@ config_version=5
 [application]
 
 config/name="Draft"
+run/main_scene="res://testing.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/transparent=true
+window/subwindows/embed_subwindows=false
+window/per_pixel_transparency/allowed=true
+
+[rendering]
+
+viewport/transparent_background=true

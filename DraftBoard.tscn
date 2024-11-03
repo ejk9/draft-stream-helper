@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdvu1obgsq4uh"]
+
+[ext_resource type="Script" path="res://draft_board.gd" id="1_wu3kn"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wu3kn")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 1152.0
+offset_bottom = 185.0
+theme_override_font_sizes/normal_font_size = 70
+bbcode_enabled = true
+text = "[center]Draft Board"
